@@ -1,0 +1,22 @@
+dateModified: 1666987789
+email:
+  fromEmail: nickp@page.works
+  fromName: 'Example Site'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    565c065d-14ce-4f90-8545-741d0c4e5e03: 'Example Site'
+    afedf37c-4a57-4de3-8294-46333d99d8d8: 'Example Site'
+    e094e708-cbe4-453b-becf-4e165d0dfe22: Common
+system:
+  edition: solo
+  live: true
+  name: 'Example Site'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
