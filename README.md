@@ -32,3 +32,16 @@ This project uses Docker to install all of the necessary dependencies within a s
 
  ## Testing in Craft
 
+ ### Installing Codeception
+
+ 1. `composer require codeception/codeception --dev` will install the package
+ 2. `codecept bootstrap` will setup the test suites
+ 3. configure the test suites
+
+ ### Using Codeception
+
+ - `codecept g:cest [suite] [file]` will create a new Cest file
+ - `codecept g:test [suite] [file]` will create a new unit test
+ - `codecept run` will run all tests
+ - `codecept run --no-artifacts` will omit thrown errors
+ - `codecept run --html` will generate a coverage report
